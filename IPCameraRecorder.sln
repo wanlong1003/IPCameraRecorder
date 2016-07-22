@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForge.Video", "AForge.Video\AForge.Video.csproj", "{809725DC-6502-4732-A51C-DEB7FEA12975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForge", "AForge.Core\AForge.csproj", "{631AC093-430F-45F4-BA0C-AF0F0405918A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge", "AForge", "{274C8924-844E-4514-BCBB-361C017FF76C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StreamServer", "StreamServer", "{9D208BEC-E1E8-4628-A7D7-DA9D1FCBF385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamService.Lib", "StreamService.Lib\StreamService.Lib.csproj", "{6492742B-A259-4E26-8A50-2CCCA1B94075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamService", "StreamService\StreamService.csproj", "{D21D5159-8EAC-4F37-AE0A-15F17FA926A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{FB4DB0FB-BD1C-4622-91AD-FF8B1345D6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPCameraRecorder", "IPCameraRecorder\IPCameraRecorder.csproj", "{6DAECE19-39B1-4A14-B49E-52CA87957F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{809725DC-6502-4732-A51C-DEB7FEA12975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809725DC-6502-4732-A51C-DEB7FEA12975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809725DC-6502-4732-A51C-DEB7FEA12975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809725DC-6502-4732-A51C-DEB7FEA12975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6492742B-A259-4E26-8A50-2CCCA1B94075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6492742B-A259-4E26-8A50-2CCCA1B94075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6492742B-A259-4E26-8A50-2CCCA1B94075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6492742B-A259-4E26-8A50-2CCCA1B94075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21D5159-8EAC-4F37-AE0A-15F17FA926A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21D5159-8EAC-4F37-AE0A-15F17FA926A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21D5159-8EAC-4F37-AE0A-15F17FA926A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21D5159-8EAC-4F37-AE0A-15F17FA926A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAECE19-39B1-4A14-B49E-52CA87957F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAECE19-39B1-4A14-B49E-52CA87957F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAECE19-39B1-4A14-B49E-52CA87957F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAECE19-39B1-4A14-B49E-52CA87957F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{809725DC-6502-4732-A51C-DEB7FEA12975} = {274C8924-844E-4514-BCBB-361C017FF76C}
+		{631AC093-430F-45F4-BA0C-AF0F0405918A} = {274C8924-844E-4514-BCBB-361C017FF76C}
+		{6492742B-A259-4E26-8A50-2CCCA1B94075} = {9D208BEC-E1E8-4628-A7D7-DA9D1FCBF385}
+		{D21D5159-8EAC-4F37-AE0A-15F17FA926A7} = {9D208BEC-E1E8-4628-A7D7-DA9D1FCBF385}
+		{6DAECE19-39B1-4A14-B49E-52CA87957F2B} = {FB4DB0FB-BD1C-4622-91AD-FF8B1345D6B2}
+	EndGlobalSection
+EndGlobal
